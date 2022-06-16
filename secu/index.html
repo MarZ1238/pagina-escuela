@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="bootstrap/js/bootstrap.min.js" ></script>
+  <link href="menu.html" rel="import" /> 
+  <link href="bootstrap/css/reloj.css" rel="stylesheet">
+  <script src="bootstrap/js/reloj.min.js" ></script>
+ 
+  
+
+  <title>15 Empresas</title>
+</head>
+<body>
+   
+  
+  <nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="nav-link" href="menu2.html">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+ <br>
+ 
+  <center>
+    <div class="card" style="width: 18rem;">
+        <img src="bootstrap/img/tesh.jpg" class="card-img-top" width="30" height="200">
+        <div class="card-body">
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Tecnologico De Estudios Superiores Huixquilucan </li>
+          <li class="list-group-item">Andrea Magnolia Muñoz Correa</li>
+          <li class="list-group-item">18090510</li> 
+              </ul>
+    </center>
+
+    
+
+    <div  id="reloj" class="reloj">
+      00 : 00 : 00
+    </div>
+    
+    <script>
+      $(document).ready(function () {
+        $('.reloj').load('menu.html');
+      });
+    </script>
+ 
+  
+</body>
+</html>  
